@@ -4,8 +4,7 @@
   "extends": [
     "config:best-practices",
     ":label(dependencies)",
-    ":timezone(Europe/Berlin)",
-    ":automergeMinor"
+    ":timezone(Europe/Berlin)"
   ],
 
   "enabledManagers": ["homebrew"],
@@ -16,8 +15,9 @@
       "automerge": true,
       "platformAutomerge": false,
       "extends": [
-        ":semanticCommitType(fix)",
-        "schedule:automergeNonOfficeHours"
+        ":skipStatusChecks",
+        "schedule:automergeNonOfficeHours",
+        ":updateNotScheduled"
       ]
     }
   ]
