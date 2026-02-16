@@ -1,8 +1,8 @@
 class Wolfictl < Formula
   desc "CLI used to work with the Wolfi OSS project"
   homepage "https://github.com/wolfi-dev/wolfictl"
-  url "https://github.com/wolfi-dev/wolfictl/archive/refs/tags/v0.39.0.tar.gz"
-  sha256 "47b6cce40bb3d160edd467eabc5c4b0d1240e7246556a0d4f9e95dab15109e5c"
+  url "https://github.com/wolfi-dev/wolfictl/archive/refs/tags/v0.39.1.tar.gz"
+  sha256 "4d53a743e8ede817e1f275dcde2632cdeb0825f7ec5d31e77d73885957ef16f7"
   license "Apache-2.0"
   head "https://github.com/wolfi-dev/wolfictl.git", branch: "main"
 
